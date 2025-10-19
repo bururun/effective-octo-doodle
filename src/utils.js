@@ -92,3 +92,27 @@ function newFunction12() {
 }
 
 module.exports = { formatData, validateInput };
+
+
+// Utility functions for DoodleAPI
+
+function formatData(data) {
+    if (typeof data === 'string') {
+        return data.trim().toUpperCase();
+    }
+    return data;
+}
+
+function validateInput(value) {
+    if (value === null || value === undefined) {
+        throw new Error('Value cannot be null');
+    }
+    return true;
+}
+
+// Update 16
+function newFunction16() {
+    return 16;
+}
+
+module.exports = { formatData, validateInput };
