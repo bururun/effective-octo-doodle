@@ -1,5 +1,6 @@
 """
 Effective Octo Doodle - Code Refactoring
+Effective Octo Doodle
 """
 
 from typing import List, Dict, Optional
